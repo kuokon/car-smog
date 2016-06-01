@@ -1,0 +1,63 @@
+<div style="margin-top: 20%">
+
+    <div style="text-align: center">
+        <img src="css/logo.png">
+    </div>
+
+    <form class="form-horizontal" name="myForm">
+
+
+        <fieldset style="font-size: xx-large; text-align: left">
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    <label class="radio-inline">
+                        <input type="radio" value="1" ng-model="form.carType">
+                        汽車
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="2" ng-model="form.carType">
+                        電單車
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <!--<label  class="col-md-10 ">車牌</label>-->
+
+                <div class="col-md-10">
+                    <input name="name" required type="text"
+                           style="font-size: 40px; height: 100px "
+                           ng-model-options="{ allowInvalid: true }"
+
+                           placeholder="MF1234"
+                           class="form-control input-large "
+                           ng-model="form.license">
+
+                    <p>{{getCarType()}} : {{getLicense()}}</p>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-10">
+
+                    <select name="loc" ng-model="form.location">
+                        <option ng-repeat="option in locations" value="{{option.address}}">{{option.id}}</option>
+                    </select>
+
+                </div>
+            </div>
+
+
+            <b><a href='{{makeEmailLink()}}'>製作 電子郵件</a></b>
+
+        </fieldset>
+
+
+    </form>
+
+
+</div>
