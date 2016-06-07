@@ -41,7 +41,7 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
 
         $scope.form = {};
         $scope.form.carType = 1;    // carType: 1 :car   2: motorcycle
-        $scope.form.license = "MF";
+        $scope.form.license = "MM";
         $scope.form.signature = "譚生";
         $scope.form.location = "澳門宋玉生廣場 (近 宋玉生公園)";
 
