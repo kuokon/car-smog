@@ -51,6 +51,15 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
             , {id: "宋玉生公園", address: "澳門宋玉生廣場 (近 宋玉生公園)"}
             , {id: "西灣大橋", address: "澳門西灣大橋 "}
             , {id: "奧林匹克", address: "澳門奧林匹克大馬路 (近 奧林匹克 游泳館)"}
+            , {id: "水坑尾 麥當勞", address: "水坑尾街 (近 麥當勞)"}
+            , {id: "高士德 培正", address: "澳門高士德大馬路 (近 培正中學)"}
+            , {id: "觀音堂", address: "美副將大馬路 (近 觀音堂)"}
+            , {id: "關閘", address: "馬場北大馬路 (近 關閘)"}
+            , {id: "媽閣", address: "河邊新街 (近 媽閣)"}
+            , {id: "水塘", address: "友誼大馬路 (近 水塘)"}
+            , {id: "友誼大橋", address: "友誼大橋"}
+            , {id: "機場", address: "偉龍馬路 (近 機場)"}
+            , {id: "威尼斯人", address: "路氹連貫公路 (近 威尼斯人)"}
         ];
 
 
