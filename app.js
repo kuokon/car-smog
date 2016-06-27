@@ -40,7 +40,10 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
     function ($rootScope, $scope, $routeParams, $window, $location, $http) {
 
         $scope.form = {};
-        $scope.form.carType = 1;    // carType: 1 :car   2: motorcycle
+        $scope.form.carType = "汽車";    // carType: 1 :car   2: motorcycle; 3 taxi, 4 travel-bus
+
+        $scope.carTypes = ["汽車", "電單車", "的士", "旅遊巴士"];
+
         $scope.form.license = "M";
         $scope.form.signature = "譚生";
         $scope.form.location = "澳門宋玉生廣場 (近 宋玉生公園)";
@@ -106,7 +109,7 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
                 if (alpha.length > 1) {
                     firstTwo = alpha.slice(-2);
                 } else {
-                    firstTwo =  alpha;
+                    firstTwo = alpha;
                 }
             }
             firstTwo = firstTwo.toUpperCase();
@@ -114,7 +117,7 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
             var lastPart = '..-..';
 
             var res = firstTwo + ' ' + number;
-            if(isCar()) {
+            if (isCar()) {
                 if (number && number.length > 3) {
                     number = number.slice(-4);
                     lastPart = number.substring(0, 2) + '-' + number.slice(-2);
@@ -129,7 +132,8 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
         }
 
         function isCar() {
-            return $scope.form.carType == 1
+
+            return $scope.form.carType != "電單車";
         }
 
         $scope.getLicense = function () {
@@ -146,9 +150,9 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
         };
 
         $scope.getCarType = function () {
-
-            var res = $scope.form.carType == 1 ? '汽車' : '電單車';
-            return res;
+            return $scope.form.carType;
+            //var res = $scope.form.carType == 1 ? '汽車' : '電單車';
+            //return res;
         };
 
         $scope.getDate = function () {

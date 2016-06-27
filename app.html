@@ -12,14 +12,19 @@
             <div class="form-group">
 
                 <div class="col-md-10">
-                    <label class="radio-inline">
-                        <input type="radio" value="1" ng-model="form.carType">
-                        汽車
-                    </label>
-                    <label class="radio-inline">
-                        <input type="radio" value="2" ng-model="form.carType">
-                        電單車
-                    </label>
+                    <label>Car type</label>
+                    <select   ng-model="form.carType">
+                        <option ng-repeat="type in carTypes" value="{{type}}">{{type}}</option>
+                    </select>
+
+                    <!--<label class="radio-inline">-->
+                        <!--<input type="radio" value="1" ng-model="form.carType">-->
+                        <!--汽車-->
+                    <!--</label>-->
+                    <!--<label class="radio-inline">-->
+                        <!--<input type="radio" value="2" ng-model="form.carType">-->
+                        <!--電單車-->
+                    <!--</label>-->
                 </div>
             </div>
 
