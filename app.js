@@ -67,7 +67,6 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
 
 
         var dateStr = null;
-        var dateTimeStr = null;
 
 
         $scope.makeEmailLink = function () {
@@ -167,14 +166,11 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
         };
 
         $scope.getDateTime = function () {
+            var dateTimeStr = null;
+            var d = new Date();
 
-            if (!dateTimeStr) {
-                var d = new Date();
-
-                dateTimeStr = (d.getFullYear() + '-' + ("0" + (d.getMonth() + 1)).slice(-2) + '-' + ("0" + d.getDate()).slice(-2)
-                + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2));
-
-            }
+            dateTimeStr = (d.getFullYear() + '-' + ("0" + (d.getMonth() + 1)).slice(-2) + '-' + ("0" + d.getDate()).slice(-2)
+            + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2));
 
             return dateTimeStr;
 
