@@ -42,7 +42,7 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
         $scope.form = {};
         $scope.form.carType = "汽車";    // carType: 1 :car   2: motorcycle; 3 taxi, 4 travel-bus
 
-        $scope.carTypes = ["汽車", "電單車", "的士", "旅遊巴士"];
+        $scope.carTypes = ["汽車", "電單車", "的士", "旅遊巴士", "貨車", "巴士"];
 
         $scope.form.license = "M";
         $scope.form.signature = "譚生";
@@ -81,7 +81,7 @@ app.controller('AppController', ['$rootScope', '$scope', '$routeParams', '$windo
                 + '        地點: ' + $scope.getLocation()
 
                 + newLine + newLine
-                + ' 為澳門空氣質量著想, 請強制 該車輛 檢查 排氣. ' + newLine
+                + ' 為澳門空氣質量 及 市民健康 著想, 請強制 該車輛 檢查 排氣. ' + newLine
 
                 + newLine + newLine + newLine
                 + '謝謝.'
