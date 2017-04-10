@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+
+        "inlineSources": true,
+        "target": "es6",
+        "sourceMap": true,
+        "outDir": "./dist/",
+        "rootDir": "./src/"
+    }
+
+    , "typeRoots": [
+        "../../node_modules/@types/"
+    ]
+}

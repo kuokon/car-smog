@@ -1,0 +1,61 @@
+<div style="margin-top: 20%">
+
+    <div style="text-align: center">
+        <img src="assets/logo.png">
+    </div>
+
+    <form class="form-horizontal" name="myForm">
+
+
+        <fieldset style="font-size: xx-large; text-align: left">
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    <label>Car type</label>
+                    <select ng-model="vm.form.carType">
+                        <option ng-repeat="type in vm.carTypes" value="{{type}}">{{type}}</option>
+                    </select>
+
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <!--<label  class="col-md-10 ">車牌</label>-->
+
+                <div class="col-md-10">
+                    <input name="name"
+                           autofocus
+                           required type="text"
+                           style="font-size: 40px; height: 100px "
+                           ng-model-options="{ allowInvalid: true }"
+                           placeholder="MF1234"
+                           class="form-control input-large "
+                           ng-model="vm.form.license">
+
+                    <p>{{vm.getCarType()}} : {{vm.getLicense()}}</p>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-10">
+
+                    <select name="loc" ng-model="vm.form.location">
+                        <option ng-repeat="option in vm.locations" value="{{option.address}}">{{option.id}}</option>
+                    </select>
+
+                </div>
+            </div>
+
+
+            <b><a href='{{vm.makeEmailLink()}}'>製作 電子郵件</a></b>
+
+        </fieldset>
+
+
+    </form>
+
+
+</div>
