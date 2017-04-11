@@ -1,6 +1,6 @@
 module MyApp {
 
-    angular.module('MyApp', ['ngMaterial', 'ngMdIcons', 'ngSanitize', 'ngMessages', 'md.data.table'])
+    angular.module('MyApp', ['ngMaterial', 'ngMdIcons', 'ngSanitize', 'ngMessages'])
         .controller('mainController', MainController)
         .service('myService', MyService)
         .config(ConfigMaterial);

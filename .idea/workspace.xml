@@ -2,115 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f2f672-3fef-4e05-bed9-7dce598453a1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/ui-bootstrap-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/ui-bootstrap-tpls.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/ui-bootstrap-tpls.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/ui-bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-bootstrap/ui-bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-growl-2/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-growl-2/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-growl-2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-growl-2/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-growl-2/build/angular-growl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-growl-2/build/angular-growl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-growl-2/build/angular-growl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-growl-2/build/angular-growl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-growl-2/doc/screenshot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/build/loading-bar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/build/loading-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/build/loading-bar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/build/loading-bar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/src/loading-bar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-loading-bar/src/loading-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-mocks/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-mocks/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-mocks/angular-mocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-mocks/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-mocks/ngAnimateMock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-mocks/ngMock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-mocks/ngMockE2E.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-mocks/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-resource/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-resource/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-resource/angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-resource/angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-resource/angular-resource.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-resource/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-resource/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-resource/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-route/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-route/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-route/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-route/angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-route/angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-route/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-route/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular-route/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/angular.min.js.gzip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/angular/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/apple-touch-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/doc/TOC.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/doc/crossdomain.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/doc/css.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/doc/extend.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/doc/faq.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/doc/html.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/doc/js.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/doc/misc.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/doc/usage.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/img/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/js/vendor/jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components.bak/html5-boilerplate/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bootstrap-3.1.1.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/united-theme-bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svr.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/appController.ts" afterPath="$PROJECT_DIR$/src/controllers/appController.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/main.html" afterPath="$PROJECT_DIR$/src/view/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.main.ts" afterPath="$PROJECT_DIR$/src/index.main.ts" />
     </list>
     <ignored path="car-smog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,8 +57,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="438">
+              <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/index.main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/services/myService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configMaterial.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/config/configMaterial.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -173,8 +97,18 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="45">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.main.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="83" lean-forward="true" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -185,77 +119,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="199">
               <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-              <folding>
-                <marker date="1491874291799" expanded="true" signature="29:5006" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="56:4794" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="148:3859" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="1636:2573" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="2617:2730" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="2775:2923" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="2793:2866" ph="//..." />
-                <marker date="1491874291799" expanded="true" signature="2967:3116" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="3027:3102" ph="//..." />
-                <marker date="1491874291799" expanded="true" signature="3157:3415" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="3194:3364" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="3460:3819" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="3890:4713" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="4058:4258" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="4098:4165" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="4187:4244" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="4419:4679" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="4470:4616" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="4730:4788" ph="{...}" />
-                <marker date="1491874291799" expanded="true" signature="4824:4960" ph="[...]" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular-aria.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/angular-aria/angular-aria.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="359" column="11" lean-forward="false" selection-start-line="359" selection-start-column="11" selection-end-line="359" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configMaterial.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/configMaterial.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appController.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="appController.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/appController.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typings/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-105">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -266,6 +139,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="count.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/count.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -292,6 +175,7 @@
       <find>$scope.</find>
       <find>sel</find>
       <find>main</find>
+      <find>table</find>
     </findStrings>
     <replaceStrings>
       <replace>form</replace>
@@ -315,10 +199,11 @@
         <option value="$PROJECT_DIR$/controllers/appController.js" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/app.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/view/main2.html" />
         <option value="$PROJECT_DIR$/src/view/main.html" />
         <option value="$PROJECT_DIR$/src/controllers/appController.ts" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/index.main.ts" />
       </list>
     </option>
   </component>
@@ -413,6 +298,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="car-smog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="car-smog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="car-smog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="car-smog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="car-smog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="car-smog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,7 +482,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1464754729879</updated>
-      <workItem from="1491805801157" duration="8824000" />
+      <workItem from="1491805801157" duration="9193000" />
     </task>
     <task id="LOCAL-00001" summary="on ...">
       <created>1464754856538</created>
@@ -594,11 +533,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491815673357</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="on ...">
+      <created>1491874297705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1491874297705</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8824000" />
+    <option name="totallyTimeSpent" value="9193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1622" height="1066" extended-state="0" />
@@ -668,30 +614,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -870,14 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/count.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-810">
@@ -921,14 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -981,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/myService.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typings/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1029,43 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/controllers/appController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <marker date="1491874291799" expanded="true" signature="29:5006" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="56:4794" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="148:3859" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="1636:2573" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="2617:2730" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="2775:2923" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="2793:2866" ph="//..." />
-            <marker date="1491874291799" expanded="true" signature="2967:3116" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="3027:3102" ph="//..." />
-            <marker date="1491874291799" expanded="true" signature="3157:3415" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="3194:3364" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="3460:3819" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="3890:4713" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="4058:4258" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="4098:4165" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="4187:4244" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="4419:4679" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="4470:4616" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="4730:4788" ph="{...}" />
-            <marker date="1491874291799" expanded="true" signature="4824:4960" ph="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/main2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1074,18 +935,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/main.html">
+    <entry file="file://$PROJECT_DIR$/src/controllers/appController.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="-105">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/appController.ts">
+    <entry file="file://$PROJECT_DIR$/src/services/myService.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/count.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/config/configMaterial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/controllers/appController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/services/myService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="83" lean-forward="true" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>
