@@ -14,7 +14,7 @@ module MyApp {
                 .icon('phone', './assets/icons/svg/phone.svg', 512)
                 .icon('menu', './assets/icons/svg/menu.svg', 24);
                 
-                $mdThemingProvider.theme('default')
+                $mdThemingProvider.theme('altTheme')
                     .primaryPalette('yellow')
                     .accentPalette('blue');  
         }

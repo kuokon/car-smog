@@ -1,47 +1,57 @@
-<md-content layout-padding>
-    <form name="projectForm">
+<div style="text-align: center;">
+    <img src="./assets/logo.png" height="90"/>
+</div>
 
-        <md-input-container flex="50">
-            <label>Car Type</label>
+<md-toolbar>
 
-            <md-select ng-model="vm.form.carType" required>
-                <md-option ng-value="item" ng-repeat="item in items">Item {{item}}</md-option>
-                <md-option ng-repeat="type in vm.carTypes" value="{{type}}">{{type}}</md-option>
-            </md-select>
-
-        </md-input-container>
+        <md-divider></md-divider>
 
 
-        <md-input-container flex="50">
-            <label>Location</label>
-            <md-select name="type" ng-model="vm.form.location" required>
-                <md-option ng-repeat="option in vm.locations" value="{{option.address}}">{{option.id}}</md-option>
-            </md-select>
-        </md-input-container>
+        <md-content layout-padding>
 
-        <md-input-container>
-            <label>Plate</label>
-            <input name="name"
-                   autofocus
-                   required type="text"
-                   style="font-size: 40px; height: 100px "
-                   ng-model-options="{ allowInvalid: true }"
-                   placeholder="MF1234"
-                   class="form-control input-large "
-                   ng-model="vm.form.license">
+            <form name="projectForm" layout="column">
 
-            <h2>{{vm.getCarType()}} : {{vm.getLicense()}}</h2>
-        </md-input-container>
+                <md-input-container flex="50">
+                    <label>Car Type</label>
+
+                    <md-select ng-model="vm.form.carType" required>
+                        <md-option ng-value="item" ng-repeat="item in items">Item {{item}}</md-option>
+                        <md-option ng-repeat="type in vm.carTypes" value="{{type}}">{{type}}</md-option>
+                    </md-select>
+
+                </md-input-container>
 
 
-    </form>
+                <md-input-container flex="50">
+                    <label>Location</label>
+                    <md-select name="type" ng-model="vm.form.location" required>
+                        <md-option ng-repeat="option in vm.locations" value="{{option.address}}">{{option.id}}
+                        </md-option>
+                    </md-select>
+                </md-input-container>
 
-    <p>
-        <md-button class="md-raised" ng-click="vm.makeEmailLink()" type="button">製作 電子郵件</md-button>
+                <md-input-container>
+                    <label>Plate</label>
+                    <input name="name"
+                           autofocus
+                           required type="text"
+                           style="font-size: 40px; height: 80px "
+                           ng-model-options="{ allowInvalid: true }"
+                           placeholder="MF1234"
+                           class="form-control input-large "
+                           ng-model="vm.form.license">
 
-        <!--<b><a href='{{vm.makeEmailLink()}}'>製作 電子郵件</a></b>-->
+                    <h2>{{vm.getCarType()}} : {{vm.getLicense()}}</h2>
+                </md-input-container>
 
-    </p>
+                <!--<div class="md-toolbar-tools">-->
+                    <md-button class="md-raised md-primary md-size" style="flex:50px"  ng-click="vm.makeEmailLink()" type="button">製作 電子郵件</md-button>
+                <!--</div>-->
 
 
-</md-content>
+            </form>
+
+
+        </md-content>
+
+</md-toolbar>
