@@ -29,11 +29,17 @@ var filesToCache = [
     './bower_components/angular-material-icons/angular-material-icons.min.js',
     './bower_components/angular-sanitize/angular-sanitize.min.js',
 
+    './dist/config/configMaterial.js',
     './dist/controllers/appController.js',
     './dist/services/myService.js',
     './dist/index.main.js',
+    './dist/index.main.js',
 
-    // './assets/logo.png',
+    './src/view/main.html',
+    './service-worker.js'
+
+    , './assets/logo.png'
+   // './assets/logo.png',
     // './assets/app.css',
 
 
@@ -74,35 +80,52 @@ self.addEventListener('activate', function (e) {
     return self.clients.claim();
 });
 
-self.addEventListener('fetch', function (e) {
-    console.log('[Service Worker] Fetch', e.request.url);
-    var dataUrl = 'https://query.yahooapis.com/v1/public/yql';
-    if (e.request.url.indexOf(dataUrl) > -1) {
-        /*
-         * When the request URL contains dataUrl, the app is asking for fresh
-         * weather data. In this case, the service worker always goes to the
-         * network and then caches the response. This is called the "Cache then
-         * network" strategy:
-         * https://jakearchibald.com/2014/offline-cookbook/#cache-then-network
-         */
-        e.respondWith(
-            caches.open(dataCacheName).then(function (cache) {
-                return fetch(e.request).then(function (response) {
-                    cache.put(e.request.url, response.clone());
-                    return response;
-                });
-            })
-        );
-    } else {
-        /*
-         * The app is asking for app shell files. In this scenario the app uses the
-         * "Cache, falling back to the network" offline strategy:
-         * https://jakearchibald.com/2014/offline-cookbook/#cache-falling-back-to-network
-         */
-        e.respondWith(
-            caches.match(e.request).then(function (response) {
-                return response || fetch(e.request);
-            })
-        );
-    }
+self.addEventListener('fetch', function(event) {
+    event.respondWith(
+        // Try the cache
+        caches.match(event.request).then(function(response) {
+            // Fall back to network
+            return response || fetch(event.request);
+
+        }).catch(function() {
+            // If both fail, show a generic fallback:
+            return caches.match('/index.html');
+            // However, in reality you'd have many different
+            // fallbacks, depending on URL & headers.
+            // Eg, a fallback silhouette image for avatars.
+        })
+    );
 });
+//
+// self.addEventListener('fetch', function (e) {
+//     console.log('[Service Worker] Fetch', e.request.url);
+//     var dataUrl = 'https://query.yahooapis.com/v1/public/yql';
+//     if (e.request.url.indexOf(dataUrl) > -1) {
+//         /*
+//          * When the request URL contains dataUrl, the app is asking for fresh
+//          * weather data. In this case, the service worker always goes to the
+//          * network and then caches the response. This is called the "Cache then
+//          * network" strategy:
+//          * https://jakearchibald.com/2014/offline-cookbook/#cache-then-network
+//          */
+//         e.respondWith(
+//             caches.open(dataCacheName).then(function (cache) {
+//                 return fetch(e.request).then(function (response) {
+//                     cache.put(e.request.url, response.clone());
+//                     return response;
+//                 });
+//             })
+//         );
+//     } else {
+//         /*
+//          * The app is asking for app shell files. In this scenario the app uses the
+//          * "Cache, falling back to the network" offline strategy:
+//          * https://jakearchibald.com/2014/offline-cookbook/#cache-falling-back-to-network
+//          */
+//         e.respondWith(
+//             caches.match(e.request).then(function (response) {
+//                 return response || fetch(e.request);
+//             })
+//         );
+//     }
+// });

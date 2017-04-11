@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1f2f672-3fef-4e05-bed9-7dce598453a1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app.css" afterPath="$PROJECT_DIR$/assets/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-worker.js" afterPath="$PROJECT_DIR$/service-worker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/main.html" afterPath="$PROJECT_DIR$/src/view/main.html" />
     </list>
     <ignored path="car-smog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +53,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
@@ -109,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service-worker.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="service-worker.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service-worker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="248">
+              <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -159,9 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>source</find>
-      <find>$scope.form</find>
-      <find>=</find>
       <find>;</find>
       <find>repeat</find>
       <find>form.</find>
@@ -189,6 +184,9 @@
       <find>selec</find>
       <find>css</find>
       <find>anim</find>
+      <find>index.html</find>
+      <find>mat</find>
+      <find>logo</find>
     </findStrings>
     <replaceStrings>
       <replace>form</replace>
@@ -220,9 +218,9 @@
         <option value="$PROJECT_DIR$/src/controllers/appController.ts" />
         <option value="$PROJECT_DIR$/src/index.main.ts" />
         <option value="$PROJECT_DIR$/src/view/main.html" />
-        <option value="$PROJECT_DIR$/service-worker.js" />
         <option value="$PROJECT_DIR$/assets/app.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/service-worker.js" />
       </list>
     </option>
   </component>
@@ -415,7 +413,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1464754729879</updated>
-      <workItem from="1491805801157" duration="19265000" />
+      <workItem from="1491805801157" duration="20489000" />
     </task>
     <task id="LOCAL-00001" summary="on ...">
       <created>1464754856538</created>
@@ -515,11 +513,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491886755076</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="on ...">
+      <created>1491894313266</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1491894313266</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19265000" />
+    <option name="totallyTimeSpent" value="20489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1622" height="1066" extended-state="0" />
@@ -974,16 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -997,6 +992,16 @@
         <state relative-caret-position="273">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
