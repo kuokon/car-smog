@@ -33,8 +33,8 @@ var filesToCache = [
     './dist/services/myService.js',
     './dist/index.main.js',
 
-    './assets/logo.png',
-    './assets/app.css',
+    // './assets/logo.png',
+    // './assets/app.css',
 
 
 ];
