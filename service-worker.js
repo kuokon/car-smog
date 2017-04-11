@@ -16,8 +16,8 @@
 var dataCacheName = 'car-smog';
 var cacheName = 'car-smog';
 var filesToCache = [
-    '/',
-    '/index.html',
+    './',
+    './index.html',
     './bower_components/angular-material/angular-material.css',
 
     './bower_components/angular-material-icons/angular-material-icons.css',
