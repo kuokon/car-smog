@@ -81,7 +81,9 @@ module MyApp {
 
             var res = 'mailto:info@dsat.gov.mo?subject=' + subjectTxt + '&body=' + bodyTxt;
 
-            return res;
+
+            window.location.href = res;
+
 
         };
 
