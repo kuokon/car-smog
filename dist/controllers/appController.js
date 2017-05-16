@@ -10,7 +10,7 @@ var MyApp;
             this.$mdBottomSheet = $mdBottomSheet;
             this.form = {
                 carType: "汽車",
-                license: "MC",
+                license: "MM",
                 signature: "譚生",
                 location: "澳門宋玉生廣場 (近 宋玉生公園)",
             };

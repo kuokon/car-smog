@@ -16,6 +16,7 @@
 var dataCacheName = 'car-smog';
 var cacheName = 'car-smog';
 var filesToCache = [
+    '/',
     './',
     './index.html',
     './bower_components/angular-material/angular-material.css',
@@ -51,6 +52,8 @@ self.addEventListener('install', function (e) {
       caches.open(cacheName).then(function(cache) {
         console.log('[ServiceWorker] Caching app shell');
         return cache.addAll(filesToCache);
+      }).catch(function() {
+          console.error('failed in .install.,  :' )
       })
     );
 });
@@ -65,6 +68,8 @@ self.addEventListener('activate', function (e) {
                     return caches.delete(key);
                 }
             }));
+        }).catch(function() {
+            console.error('failed in .activate.,  keyList:' )
         })
     );
     /*
